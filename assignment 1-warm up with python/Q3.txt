@@ -1,0 +1,3 @@
+>>open cmd
+>>go to path where you stored python file usind cd ls command
+>>python file name.py and heat enter

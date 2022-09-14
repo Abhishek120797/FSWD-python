@@ -1,0 +1,1 @@
+print('iNeuron'[::-1])
