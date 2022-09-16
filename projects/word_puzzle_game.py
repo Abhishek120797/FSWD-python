@@ -9,12 +9,11 @@ def puzzel(word,random):
         print("correct is '{}'".format(word))
         return -1
 
-
 def play():
-    word_dict={'FATHER':"TERAFH",'AEROPLANE':"AENOPAREL",'GREEN':"RENEG",'FOOTBALL':"TALLOOFB",'BREAK':"KABRE",'CTRAOTR':"TRACTOR"}
+    word_dict=dict(FATHER="TERAFH",AEROPLANE="AENOPAREL",GREEN="RENEG",FOOTBALL="TALLOOFB",BREAK="KABRE",CTRAOTR="TRACTOR",PLEASE="PELES",CHAIR="RIHAC",GROUND="ROGUDN")
     score=0
     i=1
-    for e in word_dict:
+    for e in {v for v in word_dict.keys()}:
         if i<=5:
             print("Round >>>",i)
             score+=puzzel(e,word_dict[e])    #function call
@@ -41,4 +40,3 @@ print("3:For each round if you form a wrong word -1 point added to your total sc
 print()
 input("Enter any key to begin the GAME : ")
 play()
-
