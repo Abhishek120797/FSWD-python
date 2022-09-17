@@ -10,7 +10,7 @@ def puzzel(word,random):
         return -1
 
 def play():
-    word_dict=dict(FATHER="TERAFH",AEROPLANE="AENOPAREL",GREEN="RENEG",FOOTBALL="TALLOOFB",BREAK="KABRE",CTRAOTR="TRACTOR",PLEASE="PELES",CHAIR="RIHAC",GROUND="ROGUDN")
+    word_dict=dict(FATHER="TERAFH",AEROPLANE="AENOPAREL",GREEN="RENEG",FOOTBALL="TALLOOFB",BREAK="KABRE",CTRAOTR="TRACTOR",PLEASE="PELESA",CHAIR="RIHAC",GROUND="ROGUDN")
     score=0
     i=1
     for e in {v for v in word_dict.keys()}:
