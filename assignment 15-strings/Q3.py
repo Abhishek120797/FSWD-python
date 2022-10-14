@@ -1,0 +1,1 @@
+print('Hello Learners'[1:5])
