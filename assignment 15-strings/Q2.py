@@ -1,1 +1,0 @@
-print('iNeuron'[:5])

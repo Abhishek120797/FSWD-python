@@ -1,5 +1,0 @@
-a=int(input('Enter first number ='))
-b=int(input('Enter second number ='))
-c=int(input('Enter third number ='))
-ave=float((a+b+c)/3.0)
-print('average of ',a,',', b,'and',c,' is ',ave)
