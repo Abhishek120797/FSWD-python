@@ -22,7 +22,7 @@ def play():
         else:
             print("******Game over******")
             print("Hey! {} [your Total score = {}]".format(name,score))
-            if int(input("want to play again Enter '1' for quit Enter '0'")):
+            if int(input("want to play again Enter '1' for quit Enter '0' : ")):
                 play()   #function call
             else:
                 break

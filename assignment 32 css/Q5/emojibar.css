@@ -1,0 +1,35 @@
+body{
+    background-color: #4c4b4b8d;
+}
+
+.emoji-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.emoji-bar{
+    background-color: #ffffffd5;
+    border-radius: 50px;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emoji-button{
+    cursor: pointer;
+    color: #ffffffd5;
+    border: none;
+    border-radius: 100%;
+    font-size: 35px;
+    margin: auto;
+}
+
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+}

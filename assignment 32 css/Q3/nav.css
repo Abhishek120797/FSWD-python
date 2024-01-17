@@ -1,0 +1,32 @@
+.navi {
+    background-color: #2827CC;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+body{
+   background-color: #207398;
+}
+
+ a {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 70px;
+ }
+
+a:hover {
+    color: darksalmon;
+    transition: all 0.4s ease 0s;
+}
+
+ ul {
+    list-style-type: none;
+ }
+
+ li {
+    display: inline-block;
+
+ }
